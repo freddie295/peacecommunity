@@ -1,0 +1,38 @@
+h1 {
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #f4f4f4;/*背景色*/
+    border-left: solid 5px #7db4e6;/*左線*/
+    border-bottom: solid 3px #d7d7d7;/*下線*/
+  }
+
+.v_line_left {
+  border-left: thick solid blue;
+  padding-left: 10px;
+}
+.under {
+  background: linear-gradient(transparent 70%, #ff99ab 70%);
+}
+ul, ol {
+    color: #668ad8; 
+    border: double 5px #668ad8;/*二重線 太さ 色*/
+    background: #f1f8ff; 
+    padding: 0.5em 0.5em 0.5em 2em;
+  }
+  
+  ul li, ol li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+  }
+  .box7{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    border-left: double 7px #4ec4d3;/*左線*/
+    border-right: double 7px #4ec4d3;/*右線*/
+}
+.box7 p {
+    margin: 0; 
+    padding: 0;
+}
